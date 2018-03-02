@@ -1,11 +1,11 @@
 p {
   padding: 20px;
 }
-#projects {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
 
 #about {
-  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+#projects {
+  margin-bottom: 0px;
 }
