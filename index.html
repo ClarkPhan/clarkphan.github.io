@@ -11,8 +11,13 @@
   <link rel="stylesheet" type="text/css" href="assets/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/style.css">
 
-  <!-- Bootstrap -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <!-- Bootstrap CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
   <!-- Font Awesome-->
   <link href="https://use.fontawesome.com/e10086b709.css" media="all" rel="stylesheet">
 </head>
@@ -20,7 +25,15 @@
 <body>
   <div class="container-fluid">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav-links">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href=https://github.com/clarkphan target="_blank">Clark Phan</a>
+      </div>
+      <div class="collapse navbar-collapse" id="nav-links">
         <ul class="nav navbar-nav navbar-left">
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
