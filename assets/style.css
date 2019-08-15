@@ -1,23 +1,8 @@
-@media only screen and (max-width: 768px) {
-  #aboutMe {
-    margin-top: 30px;
-    margin-bottom: 24%;
-  }
-}
-
 p {
   padding: 20px;
 }
 
-#about {
-  margin-bottom: 0px;
-}
-
-#contact {
-  margin-bottom: 0px;
-}
-
-#projects {
+#about, #contact, #projects {
   margin-bottom: 0px;
 }
 
@@ -28,4 +13,14 @@ p {
   border-width: 5px;
   border-color: #337ab7;
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  #aboutMe {
+    margin-top: 30px;
+  }
+  #clark-icon {
+    width: 200px;
+    height: 200px;
+  }
 }
