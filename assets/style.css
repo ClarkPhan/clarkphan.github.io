@@ -4,6 +4,18 @@
   }
 }
 
+@media (min-width: 1200px) {
+  #bot-caption {
+    padding-top: 131px;
+  }
+}
+
+@media (min-width: 992px) {
+  #bot-caption {
+    padding-top: 37px;
+  }
+}
+
 p {
   padding: 20px;
 }
@@ -18,8 +30,4 @@ p {
 
 #projects {
   margin-bottom: 0px;
-}
-
-#bot-caption {
-  padding-top: 37px;
 }
