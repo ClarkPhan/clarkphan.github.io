@@ -19,8 +19,19 @@ p {
   #aboutMe {
     margin-top: 30px;
   }
+
+  #social {
+    margin: auto;
+  }
+
   #clark-icon {
     width: 200px;
     height: 200px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-xs-3 {
+    margin-left: 4.2%
   }
 }
