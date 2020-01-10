@@ -8,6 +8,7 @@
 h1, h2, p {
   font-size: 35px !important;
   font-family: 'Gidugu', sans-serif !important;
+  text-shadow: black 0.1em 0.1em 0.2em !important
 }
 
 h1, h2 {
