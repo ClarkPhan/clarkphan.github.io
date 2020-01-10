@@ -25,7 +25,11 @@ p {
 }
 
 i {
-  color: #D3D3D3
+  color: #D3D3D3;
+}
+
+i:hover {
+  color: #f7f7f7;
 }
 
 #about, #contact, #projects {
