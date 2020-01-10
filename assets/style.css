@@ -1,5 +1,26 @@
+.card-image {
+  background-image: url("./images/bg.JPG");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h2, p {
+  font-size: 35px !important;
+  font-family: 'Gidugu', sans-serif !important;
+}
+
+h1, h2 {
+  color: white !important;
+}
+
 p {
   padding: 20px;
+  color: white;
+}
+
+#aboutMe {
+  height: 100vh;
 }
 
 #about, #contact, #projects {
@@ -15,23 +36,13 @@ p {
   border-radius: 50%;
 }
 
-@media only screen and (max-width: 768px) {
-  #aboutMe {
-    margin-top: 30px;
-  }
-
-  #social {
-    margin: auto;
-  }
-
+@media only screen and (max-width: 767px) {
   #clark-icon {
     width: 200px;
     height: 200px;
   }
-}
 
-@media only screen and (max-width: 767px) {
-  .col-xs-3 {
-    margin-left: 4.3%
+  h1, h2, p {
+    font-size: 22px !important;
   }
 }
