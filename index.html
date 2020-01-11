@@ -71,24 +71,10 @@
             </div>
           </div>
           <div id="typed-strings2">
-            <p>
-              I am a senior pursuing a
-              Bachelor's Degree 🎓
-              <br>
-              <br>
-              in
-              Computer Science
-              and
-              Mathematics 📚
-              <br>
-              <br>
-              at the
-              University of California, San Diego. 🏫
-              <br>
-              <br> 
-              I am currently looking for a full-time 
-              Software Engineer position. 🤓
-            </p>
+            <p>I am a senior pursuing a Bachelor's Degree. 🎓</p>
+            <p>I am studying Computer Science and Mathematics. 📚</p>
+            <p>I am a student at UC, San Diego. 🔱 <span style="font-size: 20px;">(go Tritons!)</span></p>
+            <p>I am looking for a full-time SWE role. 🤓</p>
           </div>
           <span id="typed2"></span>
         </div>
@@ -168,6 +154,8 @@
       let typed2 = new Typed('#typed2', {
         stringsElement: '#typed-strings2',
         startDelay: 1400,
+        smartBackSpace: true,
+        typeSpeed: 10,
         onComplete: (self) => {
           $('.typed-cursor').css('display', 'inline')
         }
