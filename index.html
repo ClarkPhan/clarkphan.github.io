@@ -74,7 +74,7 @@
             <p>I am a senior pursuing a Bachelor's Degree. 🎓</p>
             <p>I am studying Computer Science and Mathematics. 📚</p>
             <p>I am a student at UC, San Diego. 🔱 <span style="font-size: 20px;">(go Tritons!)</span></p>
-            <p>I am looking for a full-time SWE role. 🤓</p>
+            <p>I am looking for a full-time SWE role.^3000🤓</p>
           </div>
           <span id="typed2"></span>
         </div>
@@ -156,6 +156,16 @@
         startDelay: 1400,
         smartBackSpace: true,
         typeSpeed: 10,
+        loop: true,
+        onTypingPaused: (arrayPos, self) => {
+          $('.typed-cursor').css('display', 'inline')
+        },
+        onTypingResumed: (arrayPos, self) => {
+          $('.typed-cursor').css('display', 'none')
+        },
+        onBegin: (self) => {
+          $('.typed-cursor').css('display', 'none')
+        },
         onComplete: (self) => {
           $('.typed-cursor').css('display', 'inline')
         }
