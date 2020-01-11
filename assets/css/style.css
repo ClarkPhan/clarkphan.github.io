@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Gidugu";
+  src: url("../fonts/Gidugu-Regular.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Gidugu-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/Gidugu-Regular.otf") format("opentype"), /* Open Type Font */
+    url("../fonts/Gidugu-Regular.svg") format("svg"), /* Legacy iOS */
+    url("../fonts/Gidugu-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("../fonts/Gidugu-Regular.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/Gidugu-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
 .card-image {
   background-image: url("../images/bg.JPG");
   background-position: center center;
