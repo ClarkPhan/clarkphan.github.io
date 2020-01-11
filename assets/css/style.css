@@ -53,6 +53,10 @@ i:hover {
   border-color: #323940
 }
 
+#clark-icon:visited {
+  border-color: #212529
+}
+
 #clark-icon {
   width: 275px;
   height: 275px;
