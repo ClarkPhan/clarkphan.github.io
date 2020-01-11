@@ -49,12 +49,16 @@ i:hover {
   margin-bottom: 0px;
 }
 
+#clark-icon:hover {
+  border-color: #323940
+}
+
 #clark-icon {
   width: 275px;
   height: 275px;
   border-style: solid;
   border-width: 5px;
-  border-color: ##D3D3D3;
+  border-color: #212529;
   border-radius: 50%;
 }
 
