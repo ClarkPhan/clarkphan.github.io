@@ -1,150 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Clark Phan</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi, my name is Clark Phan! This is my personal website.">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="assets/images/favicon.gif">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Hi, my name is Clark Phan! This is my personal website.">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="icon" href="assets/images/favicon.gif">
-  <title>Clark Phan</title>
+    <!-- Reset CSS for better cross-platform compatability -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-  <!-- Reset CSS for better cross-platform compatability -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  <!-- Bootstrap CSS & JS -->
-  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/brands.min.css">
+    <link rel="stylesheet" href="assets/css/solid.min.css">
 
-  <!-- Font Awesome-->
-  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-  <link rel="stylesheet" href="assets/css/brands.min.css">
-  <link rel="stylesheet" href="assets/css/solid.min.css">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Gidugu&display=swap" rel="stylesheet"> 
 
-  <!-- Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Gidugu&display=swap" rel="stylesheet"> 
-</head>
+    <!-- Typed.js-->
+    <script src="assets/js/typed.min.js"></script>
 
-<body>
-    <div class="card card-image" id="about">
-      <div class="card-body text-center" id="aboutMe">
-        <h1>Hello!</h1>
-        <h2>My name is Clark Phan.</h2>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a href="https://www.linkedin.com/in/clark-phan/" target="_blank">
-                <i class="fab fa-linkedin fa-3x"></i>
-              </a>
-            </div>
-            <div class="col">
-              <a href="http://github.com/clarkphan" target="_blank">
-                <i class="fab fa-github-alt fa-3x"></i>
-              </a>
-            </div>
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+  </head>
+  <body>
+      <div class="card card-image" id="about">
+        <div class="card-body text-center" id="aboutMe">
+          <div id="typed-strings">
+            <h1>
+              Hello World!
+              <br>
+              My name is Clark Phan.
+            </h1>
           </div>
-        </div>
-        <img src="assets/images/me.JPG" id="clark-icon" alt="pic-of-me">
-        <div id="contact">
+          <span id="typed"></span>
           <div class="container text-center">
             <div class="row">
               <div class="col">
-                <a href="https://clarkphan.github.io/resume.pdf" target="_blank">
-                  <i class="fas fa-file-alt fa-3x"></i>
+                <a href="https://www.linkedin.com/in/clark-phan/" target="_blank">
+                  <i class="fab fa-linkedin fa-3x"></i>
                 </a>
               </div>
               <div class="col">
-                <a href="mailto:clarkphan24@gmail.com">
-                  <i class="fas fa-envelope fa-3x"></i>
+                <a href="http://github.com/clarkphan" target="_blank">
+                  <i class="fab fa-github-alt fa-3x"></i>
                 </a>
               </div>
             </div>
           </div>
+          <img src="assets/images/me.JPG" id="clark-icon" alt="pic-of-me">
+          <div id="contact">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col">
+                  <a href="https://clarkphan.github.io/resume.pdf" target="_blank">
+                    <i class="fas fa-file-alt fa-3x"></i>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="mailto:clarkphan24@gmail.com">
+                    <i class="fas fa-envelope fa-3x"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="typed-strings2">
+            <p>
+              I am a senior pursuing a
+              Bachelor's Degree
+              in
+              <br>
+              <br>
+              Computer Science
+              and
+              Mathematics
+              at the
+              University of California, San Diego.
+              <br>
+              <br> 
+              I am currently looking for a full-time 
+              Software Engineer position.
+            </p>
+          </div>
+          <span id="typed2"></span>
         </div>
-        <p>
-          I am a senior pursuing a
-          Bachelor's Degree
-          in
-          <br>
-          <br>
-          Computer Science
-          and
-          Mathematics
-          at the
-          University of California, San Diego.
-          <br>
-          <br> 
-          I am currently looking for a full-time 
-          Software Engineer position.
-        </p>
-      </div>
 
-      <!-- UNDER CONSTRUCTION-->
-      <!-- <div class="jumbotron jumbotron-fluid bg-3 text-center" id="projects">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>
-              <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank" style="text-decoration:none">
-                CLRK.BOT
-              </a>
-            </h2>
-            <div class="thumbnail">
-              <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank">
-                <img src="assets/images/weatherbot.JPG" class="img-responsive" alt="CLRKBot-img">
-              </a>
-              <div class="caption">
-                <p>Personal Facebook Messenger Bot that can make REST API calls to Twitter, Spotify, Google Weather,
-                  OMDB (online
-                  movie
-                  database)
-                </p>
+        <!-- UNDER CONSTRUCTION-->
+        <!-- <div class="jumbotron jumbotron-fluid bg-3 text-center" id="projects">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>
+                <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank" style="text-decoration:none">
+                  CLRK.BOT
+                </a>
+              </h2>
+              <div class="thumbnail">
+                <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank">
+                  <img src="assets/images/weatherbot.JPG" class="img-responsive" alt="CLRKBot-img">
+                </a>
+                <div class="caption">
+                  <p>Personal Facebook Messenger Bot that can make REST API calls to Twitter, Spotify, Google Weather,
+                    OMDB (online
+                    movie
+                    database)
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h2>
-              <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank" style="text-decoration:none">
-                LeagueTrack
-              </a>
-            </h2>
-            <div class="thumbnail ">
-              <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank">
-                <img src="assets/images/leaguetrack.JPG " class="img-responsive" alt="LeagueTrack-img">
-              </a>
-              <div class="caption">
-                <p>
-                  A full-stack application used to track a user's statistics in the popular MOBA game, League of Legends
-                </p>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>
+                <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank" style="text-decoration:none">
+                  LeagueTrack
+                </a>
+              </h2>
+              <div class="thumbnail ">
+                <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank">
+                  <img src="assets/images/leaguetrack.JPG " class="img-responsive" alt="LeagueTrack-img">
+                </a>
+                <div class="caption">
+                  <p>
+                    A full-stack application used to track a user's statistics in the popular MOBA game, League of Legends
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <h2>
-              <a href="https://github.com/gits-lit/slimey" target="_blank" style="text-decoration:none">
-                Project Slimey
-              </a>
-            </h2>
-            <div class="thumbnail">
-              <a href="https://github.com/gits-lit/slimey">
-                <img src="assets/images/slimey.gif" class="img-responsive" alt="slimey-gif">
-              </a>
-              <div class="caption">
-                <p>
-                  A virtual pet developed for HackUCI. Developed in 36 hours using HTML, CSS, JS, NodeJS, MongoDB and
-                  various libraries.
-                </p>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>
+                <a href="https://github.com/gits-lit/slimey" target="_blank" style="text-decoration:none">
+                  Project Slimey
+                </a>
+              </h2>
+              <div class="thumbnail">
+                <a href="https://github.com/gits-lit/slimey">
+                  <img src="assets/images/slimey.gif" class="img-responsive" alt="slimey-gif">
+                </a>
+                <div class="caption">
+                  <p>
+                    A virtual pet developed for HackUCI. Developed in 36 hours using HTML, CSS, JS, NodeJS, MongoDB and
+                    various libraries.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div> -->
-      <footer class="text-center">
-        © Clark Phan
-     </footer>
-</body>
-
+        </div> -->
+    <footer class="text-center">© Clark Phan</footer>
+  </body>
+  <script>
+    $('document').ready(() => {
+      let typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        showCursor: false
+      })
+      let typed2 = new Typed('#typed2', {
+        stringsElement: '#typed-strings2',
+        startDelay: 1400,
+        onComplete: (self) => {
+          $('.typed-cursor').css('display', 'inline')
+        }
+      })
+      $('.typed-cursor').css('display', 'none')
+    });
+  </script>
 </html>

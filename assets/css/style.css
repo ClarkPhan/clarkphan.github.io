@@ -5,19 +5,20 @@
   background-size: cover;
 }
 
-h1, h2, p {
+h1, h2, p, #typed, #typed2 {
   font-size: 35px !important;
   font-family: 'Gidugu', sans-serif !important;
-  text-shadow: black 0.1em 0.1em 0.2em !important
+  text-shadow: black 0.1em 0.1em 0.2em !important;
+  color: white !important;
 }
 
-h1, h2 {
+.typed-cursor {
+  font-size: 22px !important;
   color: white !important;
 }
 
 p {
   padding: 20px;
-  color: white;
 }
 
 #aboutMe {
@@ -51,13 +52,13 @@ i:hover {
     height: 200px;
   }
 
-  h1, h2, p {
+  h1, h2, p, #typed, #typed2 {
     font-size: 22px !important;
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 900px) {
   #aboutMe {
-    height: auto;
+    overflow: auto;
   }
 }
