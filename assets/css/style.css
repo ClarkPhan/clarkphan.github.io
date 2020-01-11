@@ -81,8 +81,4 @@ a {
   #aboutMe {
     overflow: auto;
   }
-
-  h1, h2, p, #typed, #typed2 {
-    font-size: 30px !important;
-  }
 }
