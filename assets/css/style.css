@@ -49,12 +49,12 @@ i:hover {
   margin-bottom: 0px;
 }
 
+a {
+  color: inherit;
+} 
+
 #clark-icon:hover {
   border-color: #323940
-}
-
-#clark-icon:visited {
-  border-color: #212529
 }
 
 #clark-icon {
