@@ -45,7 +45,7 @@ i:hover {
   border-radius: 50%;
 }
 
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   #clark-icon {
     width: 200px;
     height: 200px;
@@ -53,5 +53,11 @@ i:hover {
 
   h1, h2, p {
     font-size: 22px !important;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #aboutMe {
+    height: auto;
   }
 }
