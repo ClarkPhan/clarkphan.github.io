@@ -149,13 +149,14 @@
       $(this).scrollTop(0);
       let typed = new Typed('#typed', {
         stringsElement: '#typed-strings',
-        showCursor: false
+        showCursor: false,
+        typeSpeed: 20
       })
       let typed2 = new Typed('#typed2', {
         stringsElement: '#typed-strings2',
-        startDelay: 1400,
+        startDelay: 2600,
         smartBackSpace: true,
-        typeSpeed: 10,
+        typeSpeed: 20,
         loop: true,
         onTypingPaused: (arrayPos, self) => {
           $('.typed-cursor').css('display', 'inline')
