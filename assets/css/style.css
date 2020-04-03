@@ -10,9 +10,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.card {
+  border: 0 !important;
+}
+
 .card-image {
+  margin-top: -1rem;
   background-image: url("../images/bg.JPG");
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -81,4 +87,9 @@ a {
   #aboutMe {
     overflow: auto;
   }
+}
+
+footer {
+  margin-top: -20px;
+  margin-bottom: 13px;
 }
