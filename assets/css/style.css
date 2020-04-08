@@ -23,7 +23,7 @@
   background-size: cover;
 }
 
-h1, h2, p, #typed, #typed2 {
+h1, h2, p, #typed {
   font-size: 50px !important;
   font-family: 'Gidugu', sans-serif !important;
   text-shadow: black 0.1em 0.1em 0.2em !important;
@@ -78,7 +78,7 @@ a {
     height: 200px;
   }
 
-  h1, h2, p, #typed, #typed2 {
+  h1, h2, p, #typed {
     font-size: 22px !important;
   }
 }
@@ -92,4 +92,17 @@ a {
 footer {
   margin-top: -20px;
   margin-bottom: 12px;
+}
+
+#aboutMe {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease-in;
+     -moz-transition: opacity 1s ease-in;
+      -ms-transition: opacity 1s ease-in;
+       -o-transition: opacity 1s ease-in;
+          transition: opacity 1s ease-in;
+}
+
+#aboutMe.load {
+  opacity: 1;
 }
