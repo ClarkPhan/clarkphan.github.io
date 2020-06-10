@@ -3,10 +3,9 @@ $('document').ready(() => {
   $(this).scrollTop(0);
   let typed = new Typed('#typed', {
     stringsElement: '#typed-strings',
-    startDelay: 1600,
+    startDelay: 1200,
     smartBackSpace: true,
-    typeSpeed: 20,
-    loop: true,
+    typeSpeed: 30,
     onTypingPaused: (arrayPos, self) => {
       $('.typed-cursor').css('display', 'inline')
     },
