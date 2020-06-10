@@ -1,14 +1,12 @@
-@font-face {
-  font-family: "Gidugu";
-  src: url("../fonts/Gidugu-Regular.eot"); /* IE9 Compat Modes */
-  src: url("../fonts/Gidugu-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("../fonts/Gidugu-Regular.otf") format("opentype"), /* Open Type Font */
-    url("../fonts/Gidugu-Regular.svg") format("svg"), /* Legacy iOS */
-    url("../fonts/Gidugu-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
-    url("../fonts/Gidugu-Regular.woff") format("woff"), /* Modern Browsers */
-    url("../fonts/Gidugu-Regular.woff2") format("woff2"); /* Modern Browsers */
-  font-weight: normal;
+@font-face{
+  font-family: 'Source Code Pro';
+  font-weight: 500;
   font-style: normal;
+  font-stretch: normal;
+  src: url('../fonts/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+       url('../fonts/SourceCodePro-Medium.otf.woff') format('woff'),
+       url('../fonts/SourceCodePro-Medium.otf') format('opentype'),
+       url('../fonts/SourceCodePro-Medium.ttf') format('truetype');
 }
 
 .card {
@@ -24,14 +22,21 @@
 }
 
 h1, h2, p, #typed {
-  font-size: 50px !important;
-  font-family: 'Gidugu', sans-serif !important;
+  font-size: 30px !important;
+  font-family: 'Source Code Pro', sans-serif !important;
+  text-shadow: black 0.1em 0.1em 0.2em !important;
+  color: white !important;
+}
+
+#typed {
+  font-size: 25px !important;
+  font-family: 'Source Code Pro', sans-serif !important;
   text-shadow: black 0.1em 0.1em 0.2em !important;
   color: white !important;
 }
 
 .typed-cursor {
-  font-size: 30px !important;
+  font-size: 24px !important;
   color: white !important;
 }
 
