@@ -3,7 +3,7 @@
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  src: url('../fonts/SourceCodePro-Medium.ttf.woff2') format('woff2'),
+  src: url('../fonts/SourceCodePro-Medium.otf.woff2') format('woff2'),
        url('../fonts/SourceCodePro-Medium.otf.woff') format('woff'),
        url('../fonts/SourceCodePro-Medium.otf') format('opentype'),
        url('../fonts/SourceCodePro-Medium.ttf') format('truetype');
@@ -84,7 +84,10 @@ a {
   }
 
   h1, h2, p, #typed {
-    font-size: 22px !important;
+    font-size: 14px !important;
+  }
+  .typed-cursor {
+    font-size: 15px !important;
   }
 }
 
