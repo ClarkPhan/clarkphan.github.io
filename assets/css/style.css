@@ -46,6 +46,7 @@ p {
 
 #aboutMe {
   height: 100vh;
+  margin-bottom: -8px;
 }
 
 i {
@@ -86,17 +87,6 @@ a {
   .typed-cursor {
     font-size: 15px !important;
   }
-}
-
-@media screen and (max-height: 900px) {
-  #aboutMe {
-    overflow: auto;
-  }
-}
-
-footer {
-  margin-top: -20px;
-  margin-bottom: 12px;
 }
 
 #aboutMe {

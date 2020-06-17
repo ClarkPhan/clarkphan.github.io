@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hi, I'm Clark! This is my personal website.">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Favicon-->
   <link rel="icon" href="assets/images/favicon.gif">
 
-  <!-- Reset CSS for better cross-platform compatability -->
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -23,137 +23,62 @@
 </head>
 
 <body>
-  <div class="card card-image" id="about">
-    <!-- <nav class="navbar navbar-trans">
-      <div class="navbar-header">
-        <a class="navbar-brand" href=https://github.com/clarkphan target="_blank">Clark Phan</a>
-      </div>
-      <div class="collapse navbar-collapse" id="nav-links">
-        <ul class="nav navbar-nav navbar-left">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=https://clarkphan.github.io/resume.pdf target="_blank">Resume</a>
-          </li>
-        </ul>
-      </div>
-    </nav> -->
-    <div class="card-body text-center" id="aboutMe">
-      <h1>
-        Hello, World!
+  <div class="container card-image mw-100">
+    <div id="about">
+      <div class="text-center" id="aboutMe">
         <br>
+        <h1>
+          Hello, World!
+          <br>
+          <br>
+          My name is Clark Phan.
+        </h1>
         <br>
-        My name is Clark Phan.
-      </h1>
-      <br>
-      <div class="container text-center">
-        <div class="row">
-          <div class="col">
-            <a href="https://www.linkedin.com/in/clark-phan/" rel="noopener" target="_blank">
-              <i class="fab fa-linkedin fa-3x"></i>
-            </a>
-          </div>
-          <div class="col">
-            <a href="http://github.com/clarkphan" rel="noopener" target="_blank">
-              <i class="fab fa-github-alt fa-3x"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <a href="https://clarkphan.github.io/resume.pdf" target="_blank">
-        <img src="assets/images/me.JPG" id="clark-icon" alt="pic-of-me">
-      </a>
-      <div id="contact">
         <div class="container text-center">
           <div class="row">
             <div class="col">
-              <a href="https://clarkphan.github.io/resume.pdf" target="_blank">
-                <i class="fas fa-file-alt fa-3x"></i>
+              <a href="https://www.linkedin.com/in/clark-phan/" rel="noopener" target="_blank">
+                <i class="fab fa-linkedin fa-3x"></i>
               </a>
             </div>
             <div class="col">
-              <a href="mailto:clark@clarkphan.com">
-                <i class="fas fa-envelope fa-3x"></i>
+              <a href="http://github.com/clarkphan" rel="noopener" target="_blank">
+                <i class="fab fa-github-alt fa-3x"></i>
               </a>
             </div>
           </div>
         </div>
+        <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
+          <img src="assets/images/me.JPG" id="clark-icon" alt="pic-of-me">
+        </a>
+        <div id="contact">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
+                  <i class="fas fa-file-alt fa-3x"></i>
+                </a>
+              </div>
+              <div class="col">
+                <a href="mailto:clark@clarkphan.com">
+                  <i class="fas fa-envelope fa-3x"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div id="typed-strings">
+          <p>Engineer | Web Developer | Programmer </p>
+        </div>
+        <span id="typed"></span>
       </div>
-      <br>
-      <div id="typed-strings">
-        <p>Engineer | Web Developer | Programmer </p>
-      </div>
-      <span id="typed"></span>
     </div>
+      <footer class="text-center">
+        <a href="http://github.com/clarkphan" rel="noopener" target="_blank">© Clark Phan</a>
+      </footer>
+  </div>
 
-    <!-- UNDER CONSTRUCTION-->
-    <!-- <div class="jumbotron jumbotron-fluid bg-3 text-center" id="projects">
-          <div class="row">
-            <div class="col-md-12">
-              <h2>
-                <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank" style="text-decoration:none">
-                  CLRK.BOT
-                </a>
-              </h2>
-              <div class="thumbnail">
-                <a href="https://github.com/ClarkPhan/CLRK.BOT" target="_blank">
-                  <img src="assets/images/weatherbot.JPG" class="img-responsive" alt="CLRKBot-img">
-                </a>
-                <div class="caption">
-                  <p>Personal Facebook Messenger Bot that can make REST API calls to Twitter, Spotify, Google Weather,
-                    OMDB (online
-                    movie
-                    database)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h2>
-                <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank" style="text-decoration:none">
-                  LeagueTrack
-                </a>
-              </h2>
-              <div class="thumbnail ">
-                <a href="https://github.com/ClarkPhan/leaguetrack" target="_blank">
-                  <img src="assets/images/leaguetrack.JPG " class="img-responsive" alt="LeagueTrack-img">
-                </a>
-                <div class="caption">
-                  <p>
-                    A full-stack application used to track a user's statistics in the popular MOBA game, League of Legends
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h2>
-                <a href="https://github.com/gits-lit/slimey" target="_blank" style="text-decoration:none">
-                  Project Slimey
-                </a>
-              </h2>
-              <div class="thumbnail">
-                <a href="https://github.com/gits-lit/slimey">
-                  <img src="assets/images/slimey.gif" class="img-responsive" alt="slimey-gif">
-                </a>
-                <div class="caption">
-                  <p>
-                    A virtual pet developed for HackUCI. Developed in 36 hours using HTML, CSS, JS, NodeJS, MongoDB and
-                    various libraries.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-    <footer class="text-center">© Clark Phan</footer>
 </body>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/typed.min.js"></script>
