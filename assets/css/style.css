@@ -5,13 +5,9 @@ h1, h2, p, #typed {
   font-family: 'Source Code Pro', sans-serif !important;
 }
 
-#typed {
+#typed, .typed-cursor {
   font-size: 25px !important;
   font-family: 'Source Code Pro', sans-serif !important;
-}
-
-.typed-cursor {
-  font-size: 24px !important;
 }
 
 p {
@@ -48,12 +44,8 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-  h1, h2, p, #typed {
+  h1, h2, p, #typed, .typed-cursor {
     font-size: 14px !important;
-  }
-
-  .typed-cursor {
-    font-size: 15px !important;
   }
 }
 
