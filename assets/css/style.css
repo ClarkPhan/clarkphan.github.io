@@ -49,11 +49,11 @@ a {
 
 @media screen and (max-width: 767px) {
   h1, h2, p, #typed {
-    font-size: 19px !important;
+    font-size: 14px !important;
   }
 
   .typed-cursor {
-    font-size: 18px !important;
+    font-size: 15px !important;
   }
 }
 
