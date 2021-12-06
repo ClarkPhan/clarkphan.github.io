@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Hi, I'm Clark! This is my personal website.">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Favicon-->
+  <!-- Favicon -->
   <link rel="icon" href="assets/images/favicon.gif">
 
   <!-- CSS -->
@@ -16,72 +16,100 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
-  <!-- Font Awesome-->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" href="assets/css/brands.min.css">
   <link rel="stylesheet" href="assets/css/solid.min.css">
+
+  <!-- JQuery Terminal CSS-->
+  <link rel="stylesheet" href="assets/css/jquery.terminal.min.css">
 </head>
 
 <body>
-  <div class="container card-image mw-100">
-    <div id="about">
-      <div class="text-center" id="aboutMe">
-        <br>
-        <h1>
-          Hello, World!
-          <br>
-          <br>
-          My name is Clark Phan.
-        </h1>
-        <br>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col">
-              <a href="https://www.linkedin.com/in/clark-phan/" rel="noopener" target="_blank">
-                <i class="fab fa-linkedin fa-3x"></i>
-              </a>
-            </div>
-            <div class="col">
-              <a href="http://github.com/clarkphan" rel="noopener" target="_blank">
-                <i class="fab fa-github-alt fa-3x"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
-          <img src="assets/images/me.JPG" id="clark-icon" alt="pic-of-me">
-        </a>
-        <div id="contact">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
-                  <i class="fas fa-file-alt fa-3x"></i>
-                </a>
-              </div>
-              <div class="col">
-                <a href="mailto:clark@clarkphan.com">
-                  <i class="fas fa-envelope fa-3x"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br>
-        <div id="typed-strings">
-          <p>Engineer | Web Developer | Programmer </p>
-        </div>
-        <span id="typed"></span>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://github.com/clarkphan" rel="noopener" target="_blank">Clark Phan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="mailto:clark@clarkphan.com">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-      <footer class="text-center">
-        <a href="http://github.com/clarkphan" rel="noopener" target="_blank">© Clark Phan</a>
-      </footer>
-  </div>
+  </nav>
+  <div class="container">
+    <div">
+      <div>
+        <h1 class="text-center">
+          Hi, my name is Clark!
+        </h1>
+        <div class="d-flex justify-content-center">
+          <div id="typed-strings">
+            <p >Engineer | Web Developer | Programmer </p>
+          </div>
+          <span id="typed"></span>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
+              <div class="clark-icon">
+              </div>
+            </a>
+        </div>
+        <br>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="row">
+          <div class="col">
+            <a href="https://www.linkedin.com/in/clark-phan/" rel="noopener" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="http://github.com/clarkphan" rel="noopener" target="_blank">
+              <i class="fab fa-github-alt fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="https://clarkphan.github.io/resume.pdf" rel="noopener" target="_blank">
+              <i class="fas fa-file-alt fa-2x"></i>
+            </a>
+          </div>
+          <div class="col">
+            <a href="mailto:clark@clarkphan.com">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div id='terminal'></div>
+      </div>
+    </div>
 
+  </div>
+  <footer class="d-flex justify-content-center">
+    <a href="http://github.com/clarkphan" rel="noopener" target="_blank">© Clark Phan</a>
+  </footer>
 </body>
+
+<!-- JQuery -->
 <script src="assets/js/jquery.min.js"></script>
+
+<!-- Typed.js -->
 <script src="assets/js/typed.min.js"></script>
 <script src="assets/js/typed.js"></script>
 
+<!-- BootStrap 5 -->
+<script src="assets/js/bootstrap.min.js"></script>
+
+<!-- JQuery Terminal -->
+<script src="assets/js/jquery.terminal.min.js"></script>
+<script src="assets/js/terminal.js"></script>
 </html>

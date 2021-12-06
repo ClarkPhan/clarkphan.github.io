@@ -1,34 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap');
 
-.card {
-  border: 0 !important;
-}
-
-.card-image {
-  margin-top: -1rem;
-  background-image: url("../images/bg.JPG");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 h1, h2, p, #typed {
   font-size: 30px !important;
   font-family: 'Source Code Pro', sans-serif !important;
-  text-shadow: black 0.1em 0.1em 0.2em !important;
-  color: white !important;
 }
 
 #typed {
   font-size: 25px !important;
   font-family: 'Source Code Pro', sans-serif !important;
-  text-shadow: black 0.1em 0.1em 0.2em !important;
-  color: white !important;
 }
 
 .typed-cursor {
   font-size: 24px !important;
-  color: white !important;
 }
 
 p {
@@ -41,11 +24,11 @@ p {
 }
 
 i {
-  color: #D3D3D3;
+  color: black;
 }
 
 i:hover {
-  color: #f7f7f7;
+  color: #333;
 }
 
 #about, #contact, #projects {
@@ -56,39 +39,31 @@ a {
   color: inherit;
 } 
 
-#clark-icon:hover {
-  border-color: #323940
-}
-
-#clark-icon {
-  width: 275px;
-  height: 275px;
-  border-radius: 100%;
+.clark-icon {
+  background-image: url('../images/me.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
 
 @media screen and (max-width: 767px) {
-  #clark-icon {
-    width: 200px;
-    height: 200px;
-  }
-
   h1, h2, p, #typed {
-    font-size: 14px !important;
+    font-size: 19px !important;
   }
+
   .typed-cursor {
-    font-size: 15px !important;
+    font-size: 18px !important;
   }
 }
 
-#aboutMe {
-  opacity: 0;
-  -webkit-transition: opacity 1s ease-in;
-     -moz-transition: opacity 1s ease-in;
-      -ms-transition: opacity 1s ease-in;
-       -o-transition: opacity 1s ease-in;
-          transition: opacity 1s ease-in;
+#terminal.terminal-output {
+  font-family: 'Source Code Pro', sans-serif;
+	background:#333;
+	padding:20px 20px 15px;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+	        border-radius: 10px;
+	max-width:640px;
 }
 
-#aboutMe.load {
-  opacity: 1;
-}
