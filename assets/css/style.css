@@ -50,12 +50,11 @@ a {
 }
 
 #terminal.terminal-output {
-  font-family: 'Source Code Pro', sans-serif;
 	background:#333;
 	padding:20px 20px 15px;
-	-webkit-border-radius: 10px;
-	   -moz-border-radius: 10px;
-	        border-radius: 10px;
 	max-width:640px;
 }
 
+a:link {
+  text-decoration: none;
+}
