@@ -5,6 +5,7 @@ jQuery(function ($, undefined) {
 				'Type any of these commands to try them out! Type `help` to see this list again.'
 				+ '\nclear'
 				+ '\nabout'
+				+ '\nprojects'
 				+ '\nresume'
 				+ '\ncontact',
 				{ keepWords: true }
@@ -20,15 +21,21 @@ jQuery(function ($, undefined) {
 				{ keepWords: true }
 			);
 		},
+		projects: function() {
+			this.echo(
+				'[[!;;;;https://github.com/clarkphan]GitHub]',
+				{ keepWords: true }
+			);
+		},
 		resume: function() {
 			this.echo(
-				'Check out my resume [[!;;;;https://clarkphan.com/resume.pdf]here]!',
+				'[[!;;;;https://clarkphan.com/resume.pdf]Resume.pdf]',
 				{ keepWords: true }
 			);
 		},
 		contact: function() {
 			this.echo(
-				'Feel free to contact me at [[!;;;;clark@clarkphan.com]clark@clarkphan.com] with any questions!',
+				'Feel free to contact me at [[!;;;;clark@clarkphan.com]clark@clarkphan.com].',
 				{ keepWords: true }
 			);
 		}
@@ -41,7 +48,7 @@ jQuery(function ($, undefined) {
 			);
 		},
 		name: 'Clark\'s Terminal',
-		height: 250,
+		height: 400,
 		width: 650,
 		prompt: 'clark@clarkphan.com ~ $ ',
 		convertLinks: false,
