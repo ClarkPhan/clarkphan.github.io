@@ -35,7 +35,7 @@ jQuery(function ($, undefined) {
 		},
 		contact: function() {
 			this.echo(
-				'Feel free to contact me at [[!;;;;clark@clarkphan.com]clark@clarkphan.com].',
+				'Feel free to contact me at [[!;;;;clark@clarkphan.com]hello@clarkphan.dev].',
 				{ keepWords: true }
 			);
 		}
