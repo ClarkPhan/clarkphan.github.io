@@ -29,7 +29,7 @@ jQuery(function ($, undefined) {
 		},
 		resume: function() {
 			this.echo(
-				'[[!;;;;https://clarkphan.com/resume.pdf]Resume.pdf]',
+				'[[!;;;;https://clarkphan.dev/resume.pdf]Resume.pdf]',
 				{ keepWords: true }
 			);
 		},
