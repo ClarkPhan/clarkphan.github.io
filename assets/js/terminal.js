@@ -23,6 +23,8 @@ jQuery(function ($, undefined) {
 		},
 		projects: function() {
 			this.echo(
+				"[[!;;;;https://startpage-clarkphan.vercel.app/]StartPage]" +
+            	" " +
 				'[[!;;;;https://github.com/clarkphan]GitHub]',
 				{ keepWords: true }
 			);
