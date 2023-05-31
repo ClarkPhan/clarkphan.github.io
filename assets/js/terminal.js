@@ -52,7 +52,7 @@ jQuery(function ($, undefined) {
 		name: 'Clark\'s Terminal',
 		height: 400,
 		width: 650,
-		prompt: 'clark@clarkphan.com ~ $ ',
+		prompt: 'clark@clarkphan.dev ~ $ ',
 		convertLinks: false,
 	});
 });
